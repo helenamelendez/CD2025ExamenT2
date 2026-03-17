@@ -1,0 +1,1 @@
+una vez idetificados los actores "usuario" "bibliotecario" "sistema" luego hay que identificar las acciones globales "buscar" "solicitar" "registrar", definir quien puede realizar estas acciones y que pueden conseguir con ellas "libro" "Prestamo" "Devoluciones"
