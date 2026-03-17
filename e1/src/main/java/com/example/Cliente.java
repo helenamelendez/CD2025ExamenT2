@@ -1,10 +1,12 @@
 package com.example;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Cliente {
     
     private String nombre;
     private String email;
+    private List<Pedido> listaPedidos = new ArrayList<>();
 
 
     public String getNombre() {
@@ -25,15 +27,16 @@ public class Cliente {
         this.email = email;
     }
 
-
-
-
     public void mostrarInfo(){
-
+        System.out.println(getNombre() + " " + getEmail());
     }
 
     public void realizarPedido(Pedido pedido){
-        
+        listaPedidos.add(pedido);
+    }
+
+    public void cancelarPedido(Pedido pedido){
+        listaPedidos.remove(pedido);
     }
 
 }
