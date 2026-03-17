@@ -1,0 +1,1 @@
+He replicado el diagrama de clase de Mermaid e1 usando umbrello, añadiendo las funciones que conectarian las distintas clases y señalando las dependencias.
